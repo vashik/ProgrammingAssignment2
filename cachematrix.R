@@ -5,7 +5,7 @@
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   
-  ## get & set original matrix (unused in this task)
+  ## get & set original matrix
   set <- function(m) {
     x <<- m
     inv <<- NULL
